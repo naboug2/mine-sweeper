@@ -1,6 +1,5 @@
 /**------------------------------------------
 MineSweeper
-    
 System: MacOS using VSCode
 Student Author: Nuha Abougoash 
 -------------------------------------------*/
@@ -30,7 +29,7 @@ int c00, c01, c02, c03, c04,
 	c60, c61, c62, c63, c64,
 	c70, c71, c72, c73, c74 = UNKNOWN;
 
-//These three variables shows the state of games. You have to change these state during the game such the values reflect the correct state of the game.
+//These three variables shows the state of games. 
 int num_incorrect_flagged_mine = 0; //number of incorrectly flagged cells
 int num_correct_flagged_mine = 0;  //number of correctly flagged cells
 bool explode = false; // if the field has exploded or not
@@ -385,7 +384,7 @@ void executeCmd(string cmd) {
 
 //The main function of the program
 int main() {
-	srand(0);//using the same seed generates the same random sequence! In general, to have different games at each run we need to use a seed that is different for that run, for example, we can select the seed as function of time.
+	srand(0);
 	initField(num_mine); //call function to initialize 10 random cells as a mine
 	string cmd;	
 	
