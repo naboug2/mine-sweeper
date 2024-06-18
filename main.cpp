@@ -1,7 +1,7 @@
 /**------------------------------------------
 MineSweeper
 System: MacOS using VSCode
-Student Author: Nuha Abougoash 
+Author: Nuha Abougoash 
 -------------------------------------------*/
 #include <iostream> 
 #include <string>
